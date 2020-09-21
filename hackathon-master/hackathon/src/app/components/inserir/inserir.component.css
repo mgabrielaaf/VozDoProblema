@@ -1,0 +1,39 @@
+.login{
+  margin-top: 2vh;
+}
+
+.log{
+  width: 70vw;
+  margin-left:2vw;
+  height: 5vh;
+  border-color:black;
+  border-style: solid;
+  border-width: 0.1px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.logdesc{
+  width: 70vw;
+  margin-left:2vw;
+  height: 15vh;
+  border-color:black;
+  border-style: solid;
+  border-width: 0.1px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+button
+{
+  width: 35vw;
+  height: 5vh;
+  border-color:black;
+  border-style: solid;
+  border-width: 0.1px;
+  margin-top: 15px;
+  border-radius: 10px;
+  margin-left:2vw;
+  background: #1793D9;
+
+}

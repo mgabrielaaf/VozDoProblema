@@ -22,7 +22,7 @@ import {MatInputModule} from '@angular/material/input';
 import { PostComponent } from './components/post/post.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-
+import {MatSliderModule} from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -51,6 +51,8 @@ import { CommonModule } from '@angular/common';
     MatInputModule,
     HttpClientModule,
     CommonModule,
+    MatSliderModule,
+
 
   ],
   providers: [],

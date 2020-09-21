@@ -11,6 +11,6 @@ export class ProblemasApiService {
   constructor(private httpClient: HttpClient) {}
 
   public Lista(): Observable<ProblemaModel[]> {
-    return this.httpClient.get<ProblemaModel[]>('https://it3yui.firebaseio.com/problemas.json');
+    return this.httpClient.get<ProblemaModel[]>('https://raw.githubusercontent.com/mgabrielaaf/VozDoProblema/master/problemas.json');
   }
 }
